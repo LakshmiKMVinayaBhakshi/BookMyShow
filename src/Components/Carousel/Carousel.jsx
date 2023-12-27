@@ -56,13 +56,6 @@ const Carousel = () => {
       
       
     </Slider>
-    <div>
-    <img  className='bookNow-img' src='https://assets-in.bmscdn.com/promotions/cms/creatives/1702466964871_webslug.jpg'></img>
-    </div>
-    <div>
-    <h1>Recommended Movies</h1>
-    
-      </div>
     
 <div>
   {/* <Slider 
