@@ -1,0 +1,9 @@
+.movie-slideshow {
+    width: 100%;
+    overflow: hidden;
+}
+
+.movie-slideshow img {
+    width: 100%;
+    height: auto;
+}

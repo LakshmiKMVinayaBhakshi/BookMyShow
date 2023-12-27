@@ -1,0 +1,20 @@
+.movie-cards-api{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0000;
+    border: 0;
+    font-size: 100%;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    vertical-align: initial;
+    gap: 1%;
+    
+}
+.movie-card{
+    object-fit: cover;
+    transition: visibility 0s ease 0s, opacity 0.3s linear 0s;
+    opacity: 1;
+    visibility: visible;
+}
