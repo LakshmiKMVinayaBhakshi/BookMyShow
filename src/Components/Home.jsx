@@ -14,6 +14,7 @@ return (
     <AddImage/>
     <APIHome/>
     <AddImageTwo/>
+    <APIHome/>
     <Footer/>
     </>
 )
