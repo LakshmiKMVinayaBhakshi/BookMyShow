@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import {useNavigate } from 'react-router-dom';
 import ProductCard from './ProductCard';
+import '../OnclickPage/APIHome.css'
  
 const APIHome = () => {
     const [products, updateProducts] = useState([])
@@ -23,10 +24,12 @@ const APIHome = () => {
     return (
         <>
         <div>
-    <h1>Recommended Movies</h1>
+    <h1 className='cards-heading'>Recommended Movies</h1>
     
     </div>
-        <div style={{display:'flex',flexDirection:'row', overflow:'scroll', gap:"10px"}} >
+    
+        <div style={{display:'flex',flexDirection:'row', overflow:'scroll', gap:"10px"}} 
+        className='api-movie-cards-main'>
         { products.map((p) => <ProductCard {...p} key={p.id} handleMovieClick={handleMovieClick}/>)}
         </div>
         </>

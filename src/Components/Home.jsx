@@ -4,6 +4,7 @@ import Carousel from './Carousel/Carousel'
 import APIHome from './OnclickPage/APIHome'
 import Footer from './Footer/Footer'
 import AddImage from './AddImage'
+import AddImageTwo from './AddImageTwo'
 
 const Home = () => {
 return (
@@ -12,7 +13,7 @@ return (
     <Carousel/>
     <AddImage/>
     <APIHome/>
-    <AddImage/>
+    <AddImageTwo/>
     <Footer/>
     </>
 )
